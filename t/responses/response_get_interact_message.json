@@ -1,0 +1,80 @@
+{
+    "distribution": {
+        "id": 44984189499,
+        "message_cloud_reference": "c169124c-30c7-4485-8cb1-b894df526ec9",
+        "service": "interAct",
+        "type": "message",
+        "transmission_possible_duplicate": false,
+        "copy": false,
+        "links": [
+            {
+                "href": "https://api.swiftnet.sipn.swift.com/alliancecloud/v2/distributions/44984189499",
+                "rel": "self",
+                "type": "GET"
+            },
+            {
+                "href": "https://api.swiftnet.sipn.swift.com/alliancecloud/v2/distributions/44984189499/acks",
+                "rel": "ack",
+                "type": "POST"
+            },
+            {
+                "href": "https://api.swiftnet.sipn.swift.com/alliancecloud/v2/distributions/44984189499/naks",
+                "rel": "nak",
+                "type": "POST"
+            },
+            {
+                "href": "https://api.swiftnet.sipn.swift.com/alliancecloud/v2/interact/messages/44984189499",
+                "rel": "download",
+                "type": "GET"
+            }
+        ]
+    },
+    "message": {
+        "sender_reference": "519ab4f6-9f94-44f5-b670-7f03c87fdfa3",
+        "service_code": "swift.if.ia",
+        "message_type": "setr.017.001.04",
+        "direction": "Incoming",
+        "requestor": "ou=orca,o=swllus33,o=swift",
+        "responder": "ou=mfunds,o=swhqbebb,o=swift",
+        "version": 0,
+        "network_info": {
+            "user_reference": "IE19080850952607",
+            "network_priority": "Normal",
+            "possible_duplicate": false,
+            "non_delivery_warning_requested": true,
+            "non_delivery_warning_time": "2022-12-12T12:20:54.520Z",
+            "session_number": 1,
+            "sequence_number": 450,
+            "reference": "SWIFTNET_REF",
+            "validation_descriptor": "PFN3SW50OlZhbFJlc3VsdCB4bWxuczpTd0ludD0idXJuOnN3aWZ0OnNubDpucy5Td0ludCIgeG1sbnM9InVybjpzd2lmdDpzYWE6eHNkOnNvYXBoYSIgeG1sbnM6U2FhPSJ1cm46c3dpZnQ6c2FhOnhzZDpzYWEuMi4wIiB4bWxuczpTdz0idXJuOnN3aWZ0OnNubDpucy5TdyIgeG1sbnM6U3dHYmw9InVybjpzd2lmdDpzbmw6bnMuU3dHYmwiIHhtbG5zOlN3U2VjPSJ1cm46c3dpZnQ6c25sOm5zLlN3U2VjIj5TdWNjZXNzPC9Td0ludDpWYWxSZXN1bHQ+",
+            "response_responder_dn": "ou=cloud,o=notibica,o=swift",
+            "response_reference": "RESPONSE_SWIFTNET_REF",
+            "response_possible_duplicate": false,
+            "response_validation_descriptor": "PFN3SW50OlJlc3BWYWxSZXN1bHQgeG1sbnM6U3dJbnQ9InVybjpzd2lmdDpzbmw6bnMuU3dJbnQiIHhtbG5zPSJ1cm46c3dpZnQ6c2FhOnhzZDpzb2FwaGEiIHhtbG5zOlNhYT0idXJuOnN3aWZ0OnNhYTp4c2Q6c2FhLjIuMCIgeG1sbnM6U3c9InVybjpzd2lmdDpzbmw6bnMuU3ciIHhtbG5zOlN3R2JsPSJ1cm46c3dpZnQ6c25sOm5zLlN3R2JsIiB4bWxuczpTd1NlYz0idXJuOnN3aWZ0OnNubDpucy5Td1NlYyI+U3VjY2VzczwvU3dJbnQ6UmVzcFZhbFJlc3VsdD4=",
+            "copy_requested": false,
+            "copy_authorisation_notification_requested": false,
+            "copy_original_snf_reference": "SWIFTNET_COPY_ORIGIN_SNF_REF",
+            "swift_reference": "SWITCH21-2020-07-28T08:54:17.0448.4312Z",
+            "response_swift_reference": "SWITCH21-2020-07-28T08:54:17.0449.4312Z",
+            "processed_by_transaction_manager": false,
+            "distribution_info": {
+                "recipient_dn_list": [
+                    "ou=orca,o=swllus33,o=swift"
+                ]
+            },
+            "request_subtype": "trgt.t2.rtgs.01",
+            "screening_info_for_receiver": "/SCR/Additional-Info",
+            "request_type": "setr.017.001.04",
+            "end_to_end_sender_info": "E2EInformationIE19080850952607"
+        },
+        "security_info": {
+            "rma_result": "Success",
+            "non_repudiation_type": "Optional",
+            "signer_dn": "ou=orca,o=swllus33,o=swift",
+            "signature_result": "Success",
+            "signature_value": "PFN3SW50OlJlc3BvbnNlUGF5bG9hZCB0eXBlPSJzd2lmdC5maWxlYWN0LnNlY3NlY3VyZWRkYXRhIj4KPFN3OlRyYW5zZmVyUmVmPlNOTDAyMDcwRDExNTU4NTk2MzkxMDA0NDUyPC9TdzpUcmFuc2ZlclJlZj4KPFN3OlRyYW5zZmVyQW5zd2VyPkFjY2VwdGVkPC9TdzpUcmFuc2ZlckFuc3dlcj4KPFN3OkRpZ2VzdD4KPFN3OkRpZ2VzdEFsZ29yaXRobT5TSEEtMjU2PC9TdzpEaWdlc3RBbGdvcml0aG0+CjxTdzpEaWdlc3RWYWx1ZT5sN1YzR2EzL0JWbnhkN2pDZDg0ZFM1SGZtWnY0U25EbXdRRFV3dUFkbnIwPTwvU3c6RGlnZXN0VmFsdWU+CjwvU3c6RGlnZXN0Pgo8L1N3SW50OlJlc3BvbnNlUGF5bG9hZD4KPFN3U2VjOkNyeXB0bz4KPFN3U2VjOkNyeXB0b0ludGVybmFsPgo8U3dTZWM6Q2lwaGVyS2V5PlVFVk5Sa0JRY205akxWUjVjR1U2SURRc1RVbERMVTlPVEZrTkNrTnZiblJsYm5RdFJHOXRZV2x1T2lCU1JrTTRNaklOQ2tWdWRISjFjM1JHYVd4bExWWmxjbk5wYjI0NklESXVNQTBLVDNKcFoybHVZWFJ2Y2kxRVRqb2dZMjQ5ZFhObGNqRTBMRzg5WTNOaWQySmxZbUlzYnoxemQybG1kQTBLVDNKcFp5MVRUam9nTVRVek16azNPVEE1TncwS1RVbERMVWx1Wm04NklGTklRVEkxTml3Z1VsTkJMQTBLSUdab2RUZzVWVGhrUms1VmFVRkJjRU5VZGtWVlpGWmtjblJFWjFvd04yNVhTSGhIYlVWSGFFNUhTa0ZFTlU1eFkwZFFVV1I0WTJOSE9USnpaR1pSYXpRTkNpQlZWeXRwTkVoa1N6YzFVRGRyWmtKM1QyNWlhVWw1U1dsdFowWjFNMnd5Ym1Gek0wRlNlRTlWT0ZsVFRrY3JNMWhGVHk5V2RuUjRSbllyT0hVM2NEY3ZEUW9nTUhkaWVVSnZiMlV2YWxoclUzRm1hbTUyTm1ZeGRqTkpkbFpWTjJRMFYzRkZXVEpFYlZneE5FVm1TbGsxUmxKTGJreFRTVVpFY1Vsd1R5dDNhblp5V1EwS0lIRm9abkZhY0RkWUwySTJVa0kyT1ZCcmRTOXpZV2QwZDBoRk16QjNlU3RYY2xseVZYbzNkRmczVGtwSlJsSlRSMDFLSzFsVVVIQXlTblJEWlRBMWFEa05DaUJsTUROTFdsTjVURmxEUjBkdWFYTnNhV3d3VGxvNVZYSlhaMGtyVFRSaFkyZFpOV3RhYm1SR1ZtSnZXR0ZXU0ROS2NWa3JUVVIwZW1GTmVVUnFhbUo0RFFvZ09DOW1aWHB6Y1c5YWFFUkthV05rZFRWWmQwcHRaejA5RFFvPTwvU3dTZWM6Q2lwaGVyS2V5Pgo8U3dTZWM6Q3J5cHRvUHJvdG9jb2w+NC4wOjMuMDwvU3dTZWM6Q3J5cHRvUHJvdG9jb2w+CjwvU3dTZWM6Q3J5cHRvSW50ZXJuYWw+CjxTd1NlYzpDcnlwdG9JbmZvPgo8U3dTZWM6TWVtYmVyUmVmPlJlc3BvbnNlUGF5bG9hZDwvU3dTZWM6TWVtYmVyUmVmPgo8U3dTZWM6U2lnbkROPmNuPXVzZXIxNCxvPWNzYndiZWJiLG89c3dpZnQ8L1N3U2VjOlNpZ25ETj4KPC9Td1NlYzpDcnlwdG9JbmZvPgo8L1N3U2VjOkNyeXB0bz4K"
+        },
+        "format": "MX",
+        "payload": "PGVudmVsb3BlOkVudmVsb3BlIHhtbG5zOmVudmVsb3BlPSJ1cm46c3dpZnQ6eHNkOmVudmVsb3BlIj48QXBwSGRyIHhtbG5zPSJ1cm46c3dpZnQ6eHNkOiRhaFYxMCI+CiAgICAgICAgICAgIDxNc2dSZWY+SUUxOTA4MDg1MDk1MjYwNzwvTXNnUmVmPgogICAgICAgICAgICA8Q3JEYXRlPjIwMTktMDgtMDhUMTM6MTg6NDg8L0NyRGF0ZT4KICAgICAgICA8L0FwcEhkcj48RG9jdW1lbnQgeG1sbnM9InVybjppc286c3RkOmlzbzoyMDAyMjp0ZWNoOnhzZDpzZXRyLjAxNy4wMDEuMDQiPgogICAgICAgICAgICA8T3JkckN4bFN0c1JwdD4KICAgICAgICAgICAgICAgIDxNc2dJZD4KICAgICAgICAgICAgICAgICAgICA8SWQ+SUUxOTA4MDg1MDk1MjYwNzwvSWQ+CiAgICAgICAgICAgICAgICAgICAgPENyZUR0VG0+MjAxOS0wOC0wOFQxMzoxODo0ODwvQ3JlRHRUbT4KICAgICAgICAgICAgICAgIDwvTXNnSWQ+CiAgICAgICAgICAgICAgICA8U3RzUnB0PgogICAgICAgICAgICAgICAgICAgIDxJbmR2Q3hsU3RzUnB0PgogICAgICAgICAgICAgICAgICAgICAgICA8T3JkclJlZj5HWlVCTDA0MDA0NTU0NjhCPC9PcmRyUmVmPgogICAgICAgICAgICAgICAgICAgICAgICA8Q3hsU3RzPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPFN0cz5DQU5EPC9TdHM+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvQ3hsU3RzPgogICAgICAgICAgICAgICAgICAgIDwvSW5kdkN4bFN0c1JwdD4KICAgICAgICAgICAgICAgIDwvU3RzUnB0PgogICAgICAgICAgICA8L09yZHJDeGxTdHNScHQ+CiAgICAgICAgPC9Eb2N1bWVudD48L2VudmVsb3BlOkVudmVsb3BlPg=="
+    }
+}
