@@ -14,9 +14,9 @@
             <PmtId>
                 <EndToEndId>EndToEndId</EndToEndId>
             </PmtId>
-            <IntrBkSttlmAmt Ccy="EUR">100.00</IntrBkSttlmAmt>
+            <IntrBkSttlmAmt Ccy="?">100.00</IntrBkSttlmAmt>
             <AgrdRate>
-                <UnitCcy>EUR</UnitCcy>
+                <UnitCcy>?</UnitCcy>
                 <QtdCcy>USD</QtdCcy>
                 <PreAgrdXchgRate>1.17246</PreAgrdXchgRate>
             </AgrdRate>
