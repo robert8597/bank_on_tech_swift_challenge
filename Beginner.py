@@ -15,6 +15,7 @@ def post_interact_message():
 
     # Task 1.1: Create the InteractMessage object and set its properties
     msg = InteractMessage()
+    msg.set_sender_reference("BankOnTech")
     # ... set other properties
 
     # Task 1.2: Prepare the XML payload for your Interact message, add the correct values inside the pacs_008.xml file
