@@ -7,7 +7,7 @@ from Utils import create_jwt, generate_xswift_signature_for_post, log
 
 # Task 0: Set up the host and access token, replace the consumer key and secret
 host = "?"
-access_token = 'Bearer ' + create_jwt("?", "?")
+access_token = 'Bearer ' + create_jwt()
 
 
 # Task 1: Post an Interact message

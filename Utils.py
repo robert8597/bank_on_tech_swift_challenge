@@ -54,7 +54,10 @@ def generate_xswift_signature_for_post(url, data):
     return x_swift_signature, data_as_json
 
 
-def create_jwt(consumer_key, consumer_secret):
+def create_jwt():
+    # access_token = 'Bearer ' + create_jwt("", "")
+    consumer_key = "5msX6Fd3lY6UeUy0xe8A8AW3TtbNAwMI"
+    consumer_secret = "sKTyGChnlMOFjntk"
     private_key = get_private_key()
 
     expiration_time = calculate_expiration_time()
