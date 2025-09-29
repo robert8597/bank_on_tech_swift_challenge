@@ -50,6 +50,8 @@ def generate_xswift_signature_for_post(url, data):
 
     x_swift_signature = jwt.encode(nr_payload, private_key, headers=header, algorithm='RS256')
 
+    print(x_swift_signature)
+
     return x_swift_signature, data_as_json
 
 
@@ -81,6 +83,8 @@ def create_jwt(consumer_key, consumer_secret):
         "assertion": assertion,
         "scope": "swift.alliancecloud.api"
     }
+
+    print(data)
 
     authstr = 'Basic ' + b64encode((consumer_key + ':' + consumer_secret).encode('utf-8')).decode(
         'utf-8')

@@ -21,7 +21,7 @@ def post_interact_message():
     msg.set_payload(Utils.get_pacs_008_xml())
 
     # Task 1.3: Create the URL for posting the Interact message to the correct endpoint
-    url = f"{host}/?"
+    url = f"{host}?"
 
     x_swift_signature, data_as_json = generate_xswift_signature_for_post(url, msg.to_dict())
     message_post_response = requests.post(url, data=data_as_json,
