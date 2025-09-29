@@ -5,7 +5,7 @@ from models.InteractMessage import InteractMessage
 from Utils import create_jwt, generate_xswift_signature_for_post, log
 
 
-# Task 0: Set up the host and access token, replace the consumer key and secret
+# Task 0: Set up the host
 host = "?"
 access_token = 'Bearer ' + create_jwt()
 
