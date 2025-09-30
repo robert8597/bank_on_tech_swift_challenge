@@ -14,15 +14,15 @@
             <PmtId>
                 <EndToEndId>EndToEndId</EndToEndId>
             </PmtId>
-            <IntrBkSttlmAmt Ccy="EUR">100.00</IntrBkSttlmAmt>
+            <IntrBkSttlmAmt Ccy="?">?</IntrBkSttlmAmt>
             <AgrdRate>
-                <UnitCcy>EUR</UnitCcy>
-                <QtdCcy>USD</QtdCcy>
-                <PreAgrdXchgRate>1.17246</PreAgrdXchgRate>
+                <UnitCcy>?</UnitCcy>
+                <QtdCcy>?</QtdCcy>
+                <PreAgrdXchgRate>?</PreAgrdXchgRate>
             </AgrdRate>
             <ChrgBr>DEBT</ChrgBr>
             <Dbtr>
-                <Nm>Max Mustermann</Nm>
+                <Nm>?</Nm>
             </Dbtr>
             <DbtrAcct>
                 <Id>
@@ -32,18 +32,18 @@
             </DbtrAcct>
             <DbtrAgt>
                 <FinInstnId>
-                    <BICFI>DEUTDEFFXXX</BICFI>
-                    <Nm>DEUTSCHE BANK AG</Nm>
+                    <BICFI>?</BICFI>
+                    <Nm>?</Nm>
                 </FinInstnId>
             </DbtrAgt>
             <CdtrAgt>
                 <FinInstnId>
-                    <BICFI>BKTRUS33XXX</BICFI>
-                    <Nm>DEUTSCHE BANK TRUST COMPANY AMERICAS</Nm>
+                    <BICFI>?</BICFI>
+                    <Nm>?</Nm>
                 </FinInstnId>
             </CdtrAgt>
             <Cdtr>
-                <Nm>Jane Doe</Nm>
+                <Nm>?</Nm>
             </Cdtr>
             <CdtrAcct>
                 <Id>

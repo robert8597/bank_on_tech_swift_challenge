@@ -20,8 +20,8 @@ public class FourthTask {
 
 
     public String pullInteractMessage() {
-        // Task 4.1: Create the URL for retrieving a InterAct message by its distribution ID from the correct endpoint
-        String uri = HOST + "/alliancecloud/v2/interact/messages/44984189499";
+        // TODO Task 4.1: Create the URL for retrieving a InterAct message by its distribution ID from the correct endpoint
+        String uri = HOST + "?";
 
         log.info("Pulling an InterAct message...");
 

@@ -37,20 +37,14 @@ public class SecondTask {
         String xmlString = firstTask.validateAndTransform(document);
 
 
-        // Task 2.1: Create the InteractMessage object and set its properties
+        // TODO Task 2.1: Create the InteractMessage object and set its properties
         InterActMessageEmission interActMessageEmission = new InterActMessageEmission();
 
         interActMessageEmission.setSenderReference("BankOnTech");
-        interActMessageEmission.setServiceCode("swift.finplus!pc");
-        interActMessageEmission.setMessageType("pacs.008.001.13");
-        interActMessageEmission.setRequestor("ou=xxx,o=deutdeff,o=swift");
-        interActMessageEmission.setResponder("ou=xxx,o=bktrus33,o=swift");
-
-        interActMessageEmission.setPayload(Utils.base64Encode(xmlString));
-        interActMessageEmission.setFormat(InterActMessageEmission.FormatEnum.MX);
+        // TODO Set other Properties here
 
         // Task 2.2: Create the URI for posting the InterAct message to the correct endpoint
-        String uri = HOST + "/alliancecloud/v2/interact/messages";
+        String uri = HOST + "?";
 
         String response = swiftApiClient.post()
                 .uri(uri)

@@ -24,8 +24,8 @@ public class FifthTask {
         log.info("Acknowledging a distribution...");
 
 
-        // Task 5.1: Create the URL for posting an Acknowledgement for a distribution to the correct endpoint
-        String uri = HOST + "/alliancecloud/v2/distributions/44984189499/acks";
+        // TODO Task 5.1: Create the URL for posting an Acknowledgement for a distribution to the correct endpoint
+        String uri = HOST + "?";
 
         ResponseEntity<String> response = swiftApiClient.post()
                 .uri(uri)

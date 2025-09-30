@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 import java.io.InputStream;
 
-// Task 1: Prepare the XML payload for your Interact message, add the correct values inside the pacs_008.xml file (test/resources/pacs_008.xml)
+// TODO Task 1: Prepare the XML payload for your Interact message, add the correct values inside the pacs_008.xml file (test/resources/pacs_008.xml)
 
 @Service
 @RequiredArgsConstructor

@@ -17,8 +17,8 @@ public class ThirdTask {
 
 
     public void pullListOfDistributions() {
-        // Task 3.1: Create the URI for retrieving the list of distributions from the correct endpoint
-        String uri = HOST + "/alliancecloud/v2/distributions";
+        // TODO Task 3.1: Create the URI for retrieving the list of distributions from the correct endpoint
+        String uri = HOST + "?";
 
         log.info("Pulling a list of distributions...");
 
