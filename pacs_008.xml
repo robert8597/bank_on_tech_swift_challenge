@@ -14,11 +14,11 @@
             <PmtId>
                 <EndToEndId>EndToEndId</EndToEndId>
             </PmtId>
-            <IntrBkSttlmAmt Ccy="?">?</IntrBkSttlmAmt>
+            <IntrBkSttlmAmt Ccy="EUR">100.00</IntrBkSttlmAmt>
             <AgrdRate>
-                <UnitCcy>?</UnitCcy>
-                <QtdCcy>?</QtdCcy>
-                <PreAgrdXchgRate>?</PreAgrdXchgRate>
+                <UnitCcy>EUR</UnitCcy>
+                <QtdCcy>USD</QtdCcy>
+                <PreAgrdXchgRate>1.17246</PreAgrdXchgRate>
             </AgrdRate>
             <ChrgBr>DEBT</ChrgBr>
             <Dbtr>
@@ -32,14 +32,14 @@
             </DbtrAcct>
             <DbtrAgt>
                 <FinInstnId>
-                    <BICFI>?</BICFI>
-                    <Nm>?</Nm>
+                    <BICFI>DEUTDEFFXXX</BICFI>
+                    <Nm>DEUTSCHE BANK AG</Nm>
                 </FinInstnId>
             </DbtrAgt>
             <CdtrAgt>
                 <FinInstnId>
-                    <BICFI>?</BICFI>
-                    <Nm>?</Nm>
+                    <BICFI>BKTRUS33XXX</BICFI>
+                    <Nm>DEUTSCHE BANK TRUST COMPANY AMERICAS</Nm>
                 </FinInstnId>
             </CdtrAgt>
             <Cdtr>

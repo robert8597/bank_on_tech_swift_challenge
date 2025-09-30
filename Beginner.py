@@ -7,7 +7,13 @@ from Utils import create_jwt, generate_xswift_signature_for_post, log
 
 # Task 0: Set up the host
 host = "?"
+
 access_token = 'Bearer ' + create_jwt()
+SERVICE_CODE = "swift.finplus!pc"
+MESSAGE_TYPE = "pacs.008.001.13"
+REQUESTOR = "ou=xxx,o=deutdeff,o=swift"
+RESPONDER = "ou=xxx,o=bktrus33,o=swift"
+FORMAT = "MX"
 
 
 # Task 1: Post an Interact message
