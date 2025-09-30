@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.13">
+    <FIToFICstmrCdtTrf>
+        <GrpHdr>
+            <MsgId>e820f01c-b693-4b93-931c-336c2a3826b</MsgId>
+            <CreDtTm>2025-09-22T10:00:00Z</CreDtTm>
+            <NbOfTxs>1</NbOfTxs>
+            <CtrlSum>100.00</CtrlSum>
+            <SttlmInf>
+                <SttlmMtd>INDA</SttlmMtd>
+            </SttlmInf>
+        </GrpHdr>
+        <CdtTrfTxInf>
+            <PmtId>
+                <EndToEndId>EndToEndId</EndToEndId>
+            </PmtId>
+            <IntrBkSttlmAmt Ccy="EUR">100.00</IntrBkSttlmAmt>
+            <AgrdRate>
+                <UnitCcy>EUR</UnitCcy>
+                <QtdCcy>USD</QtdCcy>
+                <PreAgrdXchgRate>1.17246</PreAgrdXchgRate>
+            </AgrdRate>
+            <ChrgBr>DEBT</ChrgBr>
+            <Dbtr>
+                <Nm>Max Mustermann</Nm>
+            </Dbtr>
+            <DbtrAcct>
+                <Id>
+                    <IBAN>DE12345678901234567890</IBAN>
+                </Id>
+                <Ccy>EUR</Ccy>
+            </DbtrAcct>
+            <DbtrAgt>
+                <FinInstnId>
+                    <BICFI>DEUTDEFFXXX</BICFI>
+                    <Nm>DEUTSCHE BANK AG</Nm>
+                </FinInstnId>
+            </DbtrAgt>
+            <CdtrAgt>
+                <FinInstnId>
+                    <BICFI>BKTRUS33XXX</BICFI>
+                    <Nm>DEUTSCHE BANK TRUST COMPANY AMERICAS</Nm>
+                </FinInstnId>
+            </CdtrAgt>
+            <Cdtr>
+                <Nm>Jane Doe</Nm>
+            </Cdtr>
+            <CdtrAcct>
+                <Id>
+                    <IBAN>US12345678901234567890</IBAN>
+                </Id>
+                <Ccy>USD</Ccy>
+            </CdtrAcct>
+        </CdtTrfTxInf>
+    </FIToFICstmrCdtTrf>
+</Document>

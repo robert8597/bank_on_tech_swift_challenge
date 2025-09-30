@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: botchallenge
+  security:
+    oauth2:
+      client:
+        registration:
+          swift-jwt: # This is our client registration ID
+            provider: swift
+            client-id: "5msX6Fd3lY6UeUy0xe8A8AW3TtbNAwMI"
+            authorization-grant-type: urn:ietf:params:oauth:grant-type:jwt-bearer
+            client-authentication-method: private_key_jwt
+            scope: swift.alliancecloud.api/access_to_service
+        provider:
+          swift:
+            token-uri: "https://sandbox.swift.com/oauth2/v1/token" # Mock token endpoint for now
+
+# Jackson: Nur Non-Null Felder in JSON aufnehmen
+spring.jackson.default-property-inclusion: non_null
