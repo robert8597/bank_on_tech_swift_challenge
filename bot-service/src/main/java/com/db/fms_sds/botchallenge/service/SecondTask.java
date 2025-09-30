@@ -12,7 +12,7 @@ import org.springframework.web.client.RestClient;
 
 import java.security.NoSuchAlgorithmException;
 import java.security.spec.InvalidKeySpecException;
-import static com.db.fms_sds.botchallenge.constants.BotAppConstants.HOST;
+import static com.db.fms_sds.botchallenge.constants.BotAppConstants.*;
 
 
 // Task 2: Post an Interact message
@@ -42,6 +42,8 @@ public class SecondTask {
 
         interActMessageEmission.setSenderReference("BankOnTech");
         // TODO Set other Properties here
+
+        interActMessageEmission.setPayload(Utils.base64Encode(xmlString));
 
         // Task 2.2: Create the URI for posting the InterAct message to the correct endpoint
         String uri = HOST + "?";
